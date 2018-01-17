@@ -19,6 +19,7 @@ using GitBaseWebapi.Results;
 
 namespace GitBaseWebapi.Controllers
 {
+    //Add new blog
     [Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
